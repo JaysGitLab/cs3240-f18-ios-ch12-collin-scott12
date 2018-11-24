@@ -13,6 +13,8 @@
 		4427217021A8DEDF001F3A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4427216E21A8DEDF001F3A49 /* Main.storyboard */; };
 		4427217221A8DEE0001F3A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4427217121A8DEE0001F3A49 /* Assets.xcassets */; };
 		4427217521A8DEE0001F3A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4427217321A8DEE0001F3A49 /* LaunchScreen.storyboard */; };
+		4427217D21A8E0DC001F3A49 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4427217C21A8E0DC001F3A49 /* Settings.bundle */; };
+		4427217F21A8E92F001F3A49 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4427217E21A8E92F001F3A49 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4427217121A8DEE0001F3A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4427217421A8DEE0001F3A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4427217621A8DEE0001F3A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4427217C21A8E0DC001F3A49 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4427217E21A8E92F001F3A49 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4427217121A8DEE0001F3A49 /* Assets.xcassets */,
 				4427217321A8DEE0001F3A49 /* LaunchScreen.storyboard */,
 				4427217621A8DEE0001F3A49 /* Info.plist */,
+				4427217C21A8E0DC001F3A49 /* Settings.bundle */,
+				4427217E21A8E92F001F3A49 /* Constants.swift */,
 			);
 			path = BridgeControl;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4427217D21A8E0DC001F3A49 /* Settings.bundle in Resources */,
 				4427217521A8DEE0001F3A49 /* LaunchScreen.storyboard in Resources */,
 				4427217221A8DEE0001F3A49 /* Assets.xcassets in Resources */,
 				4427217021A8DEDF001F3A49 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				4427216D21A8DEDF001F3A49 /* SecondViewController.swift in Sources */,
 				4427216921A8DEDF001F3A49 /* AppDelegate.swift in Sources */,
 				4427216B21A8DEDF001F3A49 /* FirstViewController.swift in Sources */,
+				4427217F21A8E92F001F3A49 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
